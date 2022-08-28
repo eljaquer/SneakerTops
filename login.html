@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <div class="login">
+        <h1 class="text-center">SneakerTops</h1>
+        <form class="needs-validation"> 
+
+            <div class="form-group was-validated">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-control" type="email" id="email" required>
+                <div class="invalid-feedback">
+                    Por favor ingresa tu email
+                </div>
+            </div>
+            <div class="form-group was-validated">
+                <label class="form-label" for="password">password</label>
+                <input class="form-control" type="password" id="password" required>
+                <div class="invalid-feedback">
+                    Por favor ingresa tu contrasena
+                </div>
+            </div>
+
+            <div class="form-group form-check">
+                <input class="form-check-input" type= "checkbox" id="check">
+                <label class="form-check-input" for= "chack" > Recuerdame </label>
+            </div>
+
+            <input class="btn btn-succes w-100" type= "submit" value="SING IN">
+        
+        </form>
+    </div>
+
+</body>
+</html>
